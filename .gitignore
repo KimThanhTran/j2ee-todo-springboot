@@ -1,4 +1,27 @@
-kiemtragiuaky/src/main/resources/application.properties
-*.properties
-kiemtragiuaky/src/main/resources/application.properties
-*.properties
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Build output
+target/
+build/
+
+# Logs and archives
+*.log
+*.zip
+
+# Local configuration and secrets
+# DoAnMonHoc keeps its real application.properties on your machine only (see DoAnMonHoc/README.md for the keys).
+DoAnMonHoc/src/main/resources/application.properties
+*.local.properties
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
